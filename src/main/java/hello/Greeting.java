@@ -1,7 +1,5 @@
 package hello;
 
-import org.joda.time.LocalTime;
-
 public class Greeting {
 
     private final long id;
@@ -17,7 +15,6 @@ public class Greeting {
     }
 
     public String getContent() {
-        LocalTime currentTime = new LocalTime();
         return content;
     }
 }
