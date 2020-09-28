@@ -18,6 +18,6 @@ public class Greeting {
 
     public String getContent() {
         LocalTime currentTime = new LocalTime();
-        return content +"dddd";
+        return content;
     }
 }
